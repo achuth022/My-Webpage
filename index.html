@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <style>
+         .carousel img{
+           height:600px;
+          }
+            .card img{
+              height:250px;
+            }
+        </style>
+</head>
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      
+   
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="2.5em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+      <!-- carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./e72.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><em>  Top Gear</em></h5>
+              <p>Drop the Gear and disappear</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./dark-car-theme-bl10.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><em>Power Drift</em></h5>
+              <p>Smoke the WheeLs</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./MC20-3.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Devil Eyes</h5>
+              <p>Man made MAchine</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./MC20-2.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>THE MASERATI</h5>
+              <p>Luxury Sport</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- Card -->
+<div class="container">
+<div class="row mt-4">
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./nitros.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TWIN TURBOS</h5>
+              <p class="card-text">$2800</p>
+              <a href="#" class="btn btn-primary">Buy Online</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./alloy2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CARBON WHEELS</h5>
+              <p class="card-text">$2100</p>
+              <a href="#" class="btn btn-primary">Buy Online</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./suspenion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HYDROLIC SUSPENSIONS</h5>
+              <p class="card-text">$1800</p>
+              <a href="#" class="btn btn-primary">Buy Online</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./exhaust.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">VALVETRONIC EXHAUST</h5>
+              <p class="card-text">$1950</p>
+              <a href="#" class="btn btn-primary">Buy Online</a>
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+<!-- footer -->
+<div class="card text-center bg-dark">
+    <div class="card-header mt-4">
+      Featured
+    </div>
+    <div class="card-body .text-body-secondary">
+      <h5 class="card-title ">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+</body>
+</html>
